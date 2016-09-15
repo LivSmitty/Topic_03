@@ -1,11 +1,15 @@
+/*
 import java.util.Scanner;
 
+*/
 /**
  * Created by scott_000 on 9/14/2016.
- */
+ *//*
+
 public class CharacterInAString {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) */
+/*{
 
         String word = "abababab";
         String c = "c";
@@ -23,5 +27,7 @@ public class CharacterInAString {
                 i++;
             }
 
-        }
+        }*//*
+
     }
+*/
