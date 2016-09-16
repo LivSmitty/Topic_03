@@ -1,33 +1,24 @@
-/*
 import java.util.Scanner;
-
-*/
-/**
- * Created by scott_000 on 9/14/2016.
- *//*
 
 public class CharacterInAString {
 
-    public static void main(String[] args) */
-/*{
+    public static void main(String[] args) {
 
-        String word = "abababab";
-        String c = "c";
+        //Get word and character from user
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a word: ");
+        String s = input.nextLine();
+        System.out.println("Enter a character to find: ");
+        String c = input.next();
 
-        int i = 0;
-        int l = word.length();
-        System.out.println(l);
+        //determine word length
 
-       while ((i >= 0) && (i <=l)) {
-            if (word.indexOf(i) = c) {
-                System.out.println("yes");
-                i++;
-            }else
-                System.out.println("no");
-                i++;
-            }
+        if (s.contains(c))
+            System.out.print("Yes");
+        else
+            System.out.print("no");
 
-        }*//*
+
 
     }
-*/
+}
